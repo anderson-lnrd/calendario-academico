@@ -1,0 +1,549 @@
+{
+    "data": [
+    {
+        "begin_date": "2023-01-1", 
+       " end_date": null, 
+        "description": "Confraternização Universal"
+    },
+    {
+        "begin_date": "2023-01-31", 
+       " end_date": null, 
+        "description": "Término das férias para os professores, tutores e preceptores que gozaram de 30 dias de férias"
+    },
+    {
+        "begin_date": "2023-02-1", 
+       " end_date": null, 
+        "description": "Posse dos novos coordenadores de curso"
+    },
+    {
+        "begin_date": "2023-02-6", 
+       " end_date": "2023-02-10", 
+        "description": "Profissionalização Docente Intensiva"
+    },
+    {
+        "begin_date": "2023-02-11", 
+       " end_date": null, 
+        "description": "Colação de grau - Odontologia"
+    },
+    {
+        "begin_date": "2023-02-13", 
+       " end_date": "2023-02-17",
+        "description": "Planejamento pedagógico"
+    },
+    {
+        "begin_date": "2023-02-15", 
+       " end_date": null, 
+        "description": "Reunião do Comitê de Ética em Pesquisa"
+    },
+    {
+        "begin_date": "2023-02-15", 
+       " end_date": "2023-02-16", 
+        "description": "Colação de grau especial em Joinville"
+    },
+    {
+        "begin_date": "2023-02-15", 
+       " end_date": null, 
+        "description": "Data limite para envio de projetos de pesquisa para análise do Comitê de Ética em Pesquisa"
+    },
+    {
+        "begin_date": "2023-02-20", 
+       " end_date": "2023-02-21", 
+        "description": "(carnaval) - Recesso acadêmico"
+    },
+    {
+        "begin_date": "2023-02-22", 
+       " end_date": null, 
+        "description": "Início das aulas para os cursos de Ciências da Religião, Educação Especial, Educação Escolar Quilombola Geografia e Pedagogia e para a 5.ª série do curso de Psicologia "
+    },
+    {
+        "begin_date": "2023-02-22", 
+       " end_date": null, 
+        "description": "Recesso acadêmico até 12h"
+    },
+    {
+        "begin_date": "2023-02-28", 
+       " end_date": null, 
+        "description": "Último dia para entrega do Relatório de Atividades/2022 do Núcleo Docente Estruturante (NDE)"
+    },
+    {
+        "begin_date": "2023-03-1", 
+       " end_date": null, 
+        "description": "Início das aulas"
+    },
+    {
+        "begin_date": "2023-03-4", 
+       " end_date": null, 
+        "description": "Colação de grau – Direito, do Campus Joinville"
+    },
+    {
+        "begin_date": "2023-03-7", 
+       " end_date": null, 
+        "description": " Último dia para os alunos matriculados em 2023/1 (regime anual) e 2023-1 (regime semestral)  exame  aproveitamento de estudos, dispens a de disciplina e matrícula em disciplina extracurricular e fora da série"
+    },
+    {
+        "begin_date": "2023-03-8", 
+       " end_date": null, 
+        "description": "Reunião do Comitê de Ética em Pesquisa"
+    },
+    {
+        "begin_date": "2023-03-9", 
+       " end_date": null, 
+        "description": "Feriado municipal em Joinville: aniversário da cidade"
+    },
+    {
+        "begin_date": "2023-03-10", 
+       " end_date": "2023-03-11", 
+        "description": "Recesso acadêmico em Joinville"
+    },
+    {
+        "begin_date": "2023-03-15", 
+       " end_date": null, 
+        "description": "Último dia para os alunos matriculados em 2022/1 (regime anual) e 2022-2 (regime semestral) solicitarem matrícula fora do prazo"
+    },
+    {
+        "begin_date": "2023-03-18", 
+       " end_date": null, 
+        "description": "– Colação de grau – Farmácia, Naturologia, Psicologia, Enfermagem e Ciências Biológicas"
+    },
+    {
+        "begin_date": "2023-03-22", 
+       " end_date": "2023-03-23", 
+        "description": "Colação de grau especial em Joinville"
+    },
+    {
+        "begin_date": "2023-03-23", 
+       " end_date": null, 
+        "description": "Data limite para envio de projetos de pesquisa para análise do Comitê de Ética em Pesquisa"
+    },
+    {
+        "begin_date": "2023-03-25", 
+       " end_date": null, 
+        "description": "Colação de grau – Educação Física (Bacharelado e Licenciatura – Joinville) e Publicidade e Propaganda"
+    },
+    {
+        "begin_date": "2023-03-27", 
+       " end_date": null, 
+        "description": "Último dia para os alunos matriculados em 2023/1 (regime anual) e 2023-1 (regime semestral) alteração de matrícula"
+    },
+    {
+        "begin_date": "2023-04-1", 
+       " end_date": null, 
+        "description": "Colação de grau – Engenharia Mecânica, Engenharia de Produção e Engenharia Civil, do Campus Joinville"
+    },
+    {
+        "begin_date": "2023-04-6", 
+       " end_date": null, 
+        "description": " Colação de grau especial em São Bento do Sul"
+    },
+    {
+        "begin_date": "2023-04-7", 
+       " end_date": null, 
+        "description": "Feriado nacional: Sexta-feira da Paixão"
+    },
+    {
+        "begin_date": "2023-04-8", 
+       " end_date": null, 
+        "description": "Recesso acadêmico"
+    },
+    {
+        "begin_date": "2023-04-9", 
+       " end_date": null, 
+        "description": "Páscoa"
+    },
+    {
+        "begin_date": "2023-04-12", 
+       " end_date": null, 
+        "description": "Reunião do Comitê de Ética em Pesquisa"
+    },
+    {
+        "begin_date": "2023-04-12", 
+       " end_date": "2023-04-13", 
+        "description": "Integração dos novos profissionais da educação"
+    },
+    {
+        "begin_date": "2023-04-15", 
+       " end_date": null, 
+        "description": "Feriado municipal em São Francisco do Sul: aniversário da cidade"
+    },
+    {
+        "begin_date": "2023-04-15", 
+       " end_date": null, 
+        "description": "Colação de grau – Engenharia Química, Engenharia Ambiental e Sanitária e Arquitetura e Urbanismo, do  Joinville"
+    },
+    {
+        "begin_date": "2023-04-20", 
+       " end_date": null, 
+        "description": " Data limite para envio de projetos de pesquisa para análise do Comitê de Ética em Pesquisa"
+    },
+    {
+        "begin_date": "2023-04-21", 
+       " end_date": null, 
+        "description": "Feriado nacional: Tiradentes"
+    },
+    {
+        "begin_date": "2023-04-22", 
+       " end_date": null, 
+        "description": "Recesso acadêmico"
+    },
+    {
+        "begin_date": "2023-04-28", 
+       " end_date": null, 
+        "description": "Último dia para entrega do Plano Anual de Trabalho do Núcleo Docente Estruturante (NDE)"
+    },
+    {
+        "begin_date": "2023-04-28", 
+       " end_date": null, 
+        "description": "Último dia para os alunos que renovaram matrícula entregarem o contrato de prestação de serviços educacionais à Central de Atendimento Acadêmico"
+    },
+    {
+        "begin_date": "2023-04-29", 
+       " end_date": null, 
+        "description": " Colação de grau – Engenharia de Software e Sistemas de Informação"
+    },
+    {
+        "begin_date": "2023-05-1", 
+       " end_date": null, 
+        "description": "Feriado Nacional: Dia do trabalhador"
+    },
+    {
+        "begin_date": "2023-05-6", 
+       " end_date": null, 
+        "description": "Colação de grau – Design, Fotografia e Gastronomia "
+    },
+    {
+        "begin_date": "2023-05-8", 
+       " end_date": null, 
+        "description": "Último dia para publicação de notas do bimestre"
+    },
+    {
+        "begin_date": "2023-05-10", 
+       " end_date": null, 
+        "description": "Reunião do Comitê de Ética em Pesquisa"
+    },
+    {
+        "begin_date": "2023-05-13", 
+       " end_date": null, 
+        "description": "Colação de grau – Ciências Biológicas (Marinha)"
+    },
+    {
+        "begin_date": "2023-05-25", 
+       " end_date": null, 
+        "description": "Data limite para envio de projetos de pesquisa para análise do Comitê de Ética em Pesquisa"
+    },
+    {
+        "begin_date": "2023-06-8", 
+       " end_date": null, 
+        "description": "Feriado nacional: Corpus Christ"
+    },
+    {
+        "begin_date": "2023-06-9", 
+       " end_date": "2023-06-10", 
+        "description": "Recesso acadêmico"
+    },
+    {
+        "begin_date": "2023-06-12", 
+       " end_date": null, 
+        "description": "Último dia para entrega das Atividades Complementares (alunos concluintes, exceto Medicina)"
+    },
+    {
+        "begin_date": "2023-06-14", 
+       " end_date": null, 
+        "description": "Reunião do Comitê de Ética em Pesquisa"
+    },
+    {
+        "begin_date": "2023-06-22", 
+       " end_date": null, 
+        "description": "Data limite para envio de projetos de pesquisa para análise do Comitê de Ética em Pesquisa"
+    },
+    {
+        "begin_date": "2023-07-7", 
+       " end_date": null, 
+        "description": "Colação de grau – Medicina"
+    },
+    {
+        "begin_date": "2023-07-8", 
+       " end_date": null, 
+        "description": "Término do semestre para cursos anuais e semestrais, exceto para Ciências da Religião, Educação Especial Educação Escolar Quilombola, Geografia, Pedagogia e 5.ª série do curso de Psicologia"
+    },
+    {
+        "begin_date": "2023-07-10", 
+       " end_date": "2023-07-15", 
+        "description": "Reposição/recuperação de aulas, exceto para Ciências da Religião, Educação Especial, Educação Quilombola, Geografia, Pedagogia e 5.ª série do curso de Psicologia "
+    },
+    {
+        "begin_date": "2023-07-12", 
+       " end_date": null, 
+        "description": "Reunião do Comitê de Ética em Pesquisa"
+    },
+    {
+        "begin_date": "2023-07-15", 
+       " end_date": null, 
+        "description": "Término do 1.º semestre (incluindo exames finais) para os cursos de Ciências da Religião, Educação Especial, Educação Escolar Quilombola, Geografia e Pedagogia e para a 5.ª série do curso de Psicologia"
+    },
+    {
+        "begin_date": "2023-07-15", 
+       " end_date": null, 
+        "description": "Último dia para publicação de notas do bimestre"
+    },
+    {
+        "begin_date": "2023-07-17", 
+       " end_date": "2023-07-18", 
+        "description": "Profissionalização Docente Intensiva"
+    },
+    {
+        "begin_date": "2023-07-17", 
+       " end_date": "2023-07-22", 
+        "description": "Exames Finais"
+    },
+    {
+        "begin_date": "2023-07-20", 
+       " end_date": null, 
+        "description": "Data limite para envio de projetos de pesquisa para análise do Comitê de Ética em Pesquisa"
+    },
+    {
+        "begin_date": "2023-07-24", 
+       " end_date": null, 
+        "description": "Início das aulas para os cursos de Ciências da Religião, Educação Especial Educação Escolar Quilombola Geografia e Pedagogia e para a 5.ª série do curso de Psicologia"
+    },
+    {
+        "begin_date": "2023-07-24", 
+       " end_date": "2023-07-29", 
+        "description": "Recesso acadêmico"
+    },
+    {
+        "begin_date": "2023-07-31", 
+       " end_date": null, 
+        "description": "Início das aulas"
+    },
+    {
+        "begin_date": "2023-08-4", 
+       " end_date": null, 
+        "description": "Último dia para os alunos matriculados em 2023/2 (regime anual) e 2023-2 (regime semestral) dispensa de disciplina,exame de aproveitamento de estudos e matrícula em disciplina extracurricular e fora da série"
+    },
+    {
+        "begin_date": "2023-08-5", 
+       " end_date": null, 
+        "description": "Colação de Grau – Direito, do Campus Joinville"
+    },
+    {
+        "begin_date": "2023-08-9", 
+       " end_date": null, 
+        "description": "Reunião do Comitê de Ética em Pesquisa"
+    },
+    {
+        "begin_date": "2023-08-11", 
+       " end_date": null, 
+        "description": "Último dia para os alunos matriculados em 2022/2 (regime anual) e 2023-1 (regime semestral) solicitarem matrícula fora do prazo"
+    },
+    {
+        "begin_date": "2023-08-12", 
+       " end_date": null, 
+        "description": "Colação de grau – Química, do Campus São Bento do Sul"
+    },
+    {
+        "begin_date": "2023-08-14", 
+       " end_date": null, 
+        "description": "Dia da Univille"
+    },
+    {
+        "begin_date": "2023-08-14", 
+       " end_date": null, 
+        "description": " Último dia para os alunos matriculados em 2023/2 (regime anual) e 2023-2 (regime semestral) requererem alteração de matrícula"
+    },
+    {
+        "begin_date": "2023-08-14", 
+       " end_date": "2023-08-18", 
+        "description": "Semana da Comunidade"
+    },
+    {
+        "begin_date": "2023-08-19", 
+       " end_date": null, 
+        "description": "Colação de grau – Administração, Ciências Contábeis, Comércio Exterior, Ciências Econômicas e Escolar Quilombola, do Campus Joinville"
+    },
+    {
+        "begin_date": "2023-08-23", 
+       " end_date": "2023-08-24", 
+        "description": "Colação de grau especial em Joinville"
+    },
+    {
+        "begin_date": "2023-08-24", 
+       " end_date": null, 
+        "description": "Colação de grau especial em São Bento do Sul"
+    },
+    {
+        "begin_date": "2023-08-24", 
+       " end_date": null, 
+        "description": "Data limite para envio de projetos de pesquisa para análise do Comitê de Ética em Pesquisa"
+    },
+    {
+        "begin_date": "2023-08-26", 
+       " end_date": null, 
+        "description": "Colação de grau – Administração e Ciências Contábeis, do Campus São Bento do Sul"
+    },
+    {
+        "begin_date": "2023-08-26", 
+       " end_date": null, 
+        "description": "– Colação de grau – Artes Visuais, Pedagogia, Letras / Inglês, História e Ciências (Licenciatura, do Campus Joinville"
+    },
+    {
+        "begin_date": "2023-08-31", 
+       " end_date": null, 
+        "description": "Último dia para os alunos que renovaram matrícula entregarem o contrato de prestação de serviços educacionais à Central de Atendimento Acadêmico"
+    },
+    {
+        "begin_date": "2023-09-7", 
+       " end_date": null, 
+        "description": "Feriado nacional: Independência do Brasil"
+    },
+    {
+        "begin_date": "2023-09-8", 
+       " end_date": null, 
+        "description": " Feriado municipal em São Francisco do Sul: Dia da Padroeira"
+    },
+    {
+        "begin_date": "2023-09-8", 
+       " end_date": "2023-09-9", 
+        "description": "Recesso acadêmico"
+    },
+    {
+        "begin_date": "2023-09-13", 
+       " end_date": null, 
+        "description": "Reunião do Comitê de Ética em Pesquisa"
+    },
+    {
+        "begin_date": "2023-09-13", 
+       " end_date": "2023-09-14", 
+        "description": "Integração dos novos profissionais da educação"
+    },
+    {
+        "begin_date": "2023-09-21", 
+       " end_date": null, 
+        "description": "Data limite para envio de projetos de pesquisa para análise do Comitê de Ética em Pesquisa"
+    },
+    {
+        "begin_date": "2023-09-23", 
+       " end_date": null, 
+        "description": " Feriado municipal em São Bento do Sul: aniversário da cidade"
+    },
+    {
+        "begin_date": "2023-10-2", 
+       " end_date": null, 
+        "description": "Último dia para publicação de notas do bimestre"
+    },
+    {
+        "begin_date": "2023-10-11", 
+       " end_date": null, 
+        "description": "Reunião do Comitê de Ética em Pesquisa"
+    },
+    {
+        "begin_date": "2023-10-12", 
+       " end_date": null, 
+        "description": "Feriado nacional: Dia de Nossa Senhora Aparecida"
+    },
+    {
+        "begin_date": "2023-10-13", 
+       " end_date": null, 
+        "description": "Último dia para solicitação de prova de aproveitamento de estudos"
+    },
+    {
+        "begin_date": "2023-10-15", 
+       " end_date": null, 
+        "description": "Dia do Professor e do Auxiliar de Administração Escolar – feriado escolar"
+    },
+    {
+        "begin_date": "2023-10-19", 
+       " end_date": null, 
+        "description": " Data limite para envio de projetos de pesquisa para análise do Comitê de Ética em Pesquisa"
+    },
+    {
+        "begin_date": "2023-10-31", 
+       " end_date": null, 
+        "description": "Último dia para entrega das atividades complementares (alunos concluintes, exceto Medicina)"
+    },
+    {
+        "begin_date": "2023-11-2", 
+       " end_date": null, 
+        "description": "Feriado nacional: Finados"
+    },
+    {
+        "begin_date": "2023-11-8", 
+       " end_date": null, 
+        "description": "Reunião do Comitê de Ética em Pesquisa"
+    },
+    {
+        "begin_date": "2023-11-15", 
+       " end_date": null, 
+        "description": "Feriado nacional: Proclamação da República"
+    },
+    {
+        "begin_date": "2023-11-23", 
+       " end_date": null, 
+        "description": "Data limite para envio de projetos de para do Comitê de Ética em Pesquisa"
+    },
+    {
+        "begin_date": "2023-11-2", 
+       " end_date": null, 
+        "description": "Término do semestre, exceto para os cursos de Ciências da Religião, Educação Especial, Educação Escolar Quilombola, Geografia e Pedagogia e para a 5.ª série do curso de Psicologia"
+    },
+    {
+        "begin_date": "2023-11-4", 
+       " end_date": "2023-11-9", 
+        "description": "Reposição/recuperação de aulas, exceto para os cursos de Ciências da Religião, Educação Especial, Educação Escolar Quilombola, Geografia e Pedagogia e para a 5.ª série do curso de Psicologia"
+    },
+    {
+        "begin_date": "2023-11-5", 
+       " end_date": null, 
+        "description": "Colação de grau – Medicina"
+    },
+    {
+        "begin_date": "2023-11-9", 
+       " end_date": null, 
+        "description": "Último dia para publicação de notas do bimestre"
+    },
+    {
+        "begin_date": "2023-11-9", 
+       " end_date": null, 
+        "description": "Término do semestre para os cursos de Ciências da Religião, Educação Especial, Educação Escolar Quilombola, Geografia e Pedagogia e para a 5.ª série do curso de Psicologia"
+    },
+    {
+        "begin_date": "2023-11-11", 
+       " end_date": "2023-11-16", 
+        "description": "Exames finais, exceto para os cursos de Ciências da Religião, Educação Especial, Educação Escolar Quilombola, Geografia e Pedagogia e para a 5.ª série do curso de Psicologia"
+    },
+    {
+        "begin_date": "2023-11-11", 
+       " end_date": "2023-11-16", 
+        "description": "Reposição/recuperação de aulas para os cursos de Ciências da Religião, Educação Especial, Educação Escolar Quilombola, Geografia e Pedagogia e para a 5.ª série do curso de Psicologia"
+    },
+    {
+        "begin_date": "2023-11-13", 
+       " end_date": null, 
+        "description": "Reunião do Comitê de Ética em Pesquisa"
+    },
+    {
+        "begin_date": "2023-11-15", 
+       " end_date": null, 
+        "description": "Data limite para envio de projetos de pesquisa para análise do Comitê de Ética em Pesquisa"
+    },
+    {
+        "begin_date": "2023-11-18", 
+       " end_date": "2023-11-21", 
+        "description": "Exames finais para os cursos de Ciências Religião, Educação Especial, Educação Escolar Quilombola, Geografia e Pedagogia e para a 5.ª série do curso de Psicologia"
+    },
+    {
+        "begin_date": "2023-11-20", 
+       " end_date": null, 
+        "description": "– Último dia para publicação de notas de exames finais e trabalhos de conclusão de curso (TCC/TCE/monografia/trabalho de graduação)"
+    },
+    {
+        "begin_date": "2023-11-22", 
+       " end_date": null, 
+        "description": "Encerramento das atividades"
+    },
+    {
+        "begin_date": "2023-11-25", 
+       " end_date": null, 
+        "description": "Natal"
+    }
+]
+}

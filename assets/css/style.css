@@ -1,0 +1,88 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+}
+
+main{
+    width: 70%;
+}
+
+aside{
+    width: 30%;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.card{
+    position: absolute;
+    width: 60%;
+}
+
+.calendar-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.table{
+    width: 100%;
+    height: 500px;
+    text-align: center;
+}
+
+.calendar-button{
+    width: 28.57142857142857%;
+    height: 50px;
+    background-color: #005F37;
+    color: white;
+    border: 0px;
+    box-shadow: 0px;
+    font-weight: bold;
+}
+
+#table-form{
+    width: 42.85714285714286%;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+#table-form select{
+    height: 50px;
+    text-align: center;
+    font-weight: bold;
+}
+
+#table-form select:nth-child(1){
+    width: 66.6%;
+}
+
+#table-form select:nth-child(2){
+    width: 33.3%;
+}
+
+th{
+    padding: 20px 10px;
+    background-color: #82c55b;
+    color: black;
+    font-weight: bolder;
+}
+
+table, th, td {
+    border: 2px solid #095431;
+    border-collapse: collapse;
+}
+
+td:hover{
+    background-color: #bae8a0fd;
+    cursor: pointer;
+}
+
+.today{
+    background-color: #82c55b;
+    border: 3px solid #095431;
+    font-weight: bold;
+}

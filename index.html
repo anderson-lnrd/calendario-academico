@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Calendário Acadêmico</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <main>
+        <div class="container">
+            <div class="card">
+                <div class="calendar-header">
+        
+                    <button class="calendar-button" id="previous" onclick="previous()">Retroceder</button>
+                    <form id="table-form">
+                        <select class="" name="month" id="month" onchange="jump()">
+                            <option value=0>Janeiro</option>
+                            <option value=1>Fevereiro</option>
+                            <option value=2>Março</option>
+                            <option value=3>Abril</option>
+                            <option value=4>Maio</option>
+                            <option value=5>Junho</option>
+                            <option value=6>Julho</option>
+                            <option value=7>Agosto</option>
+                            <option value=8>Setembro</option>
+                            <option value=9>Outubro</option>
+                            <option value=10>Novembro</option>
+                            <option value=11>Dezembro</option>
+                        </select>
+            
+                        <select name="year" id="year" onchange="jump()">
+                            <option value=2010>2010</option>
+                            <option value=2011>2011</option>
+                            <option value=2012>2012</option>
+                            <option value=2013>2013</option>
+                            <option value=2014>2014</option>
+                            <option value=2015>2015</option>
+                            <option value=2016>2016</option>
+                            <option value=2017>2017</option>
+                            <option value=2018>2018</option>
+                            <option value=2019>2019</option>
+                            <option value=2020>2020</option>
+                            <option value=2021>2021</option>
+                            <option value=2022>2022</option>
+                            <option value=2023>2023</option>
+                            <option value=2024>2024</option>
+                            <option value=2025>2025</option>
+                            <option value=2026>2026</option>
+                            <option value=2027>2027</option>
+                            <option value=2028>2028</option>
+                            <option value=2029>2029</option>
+                            <option value=2030>2030</option>
+                        </select>
+                </form>
+                    <button class="calendar-button" id="next" onclick="next()">Avançar</button>
+                </div>
+                <table class="table" id="calendar">
+                    <thead>
+                    <tr>
+                        <th>D</th>
+                        <th>S</th>
+                        <th>T</th>
+                        <th>Q</th>
+                        <th>Q</th>
+                        <th>S</th>
+                        <th>S</th>
+                    </tr>
+                    </thead>
+        
+                    <tbody id="calendar-body">
+        
+                    </tbody>
+                </table>
+                <br/>
+            </div>
+        </div>
+    </main>
+    <aside>
+        <h3 class="card-header" id="monthAndYear"></h3>
+    </aside>
+
+<script src="./assets/js/view/script.js"></script>
+
+</body>
+</html>
