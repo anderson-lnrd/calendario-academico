@@ -83,6 +83,16 @@ td:hover{
 
 .today{
     background-color: #82c55b;
-    border: 3px solid #095431;
+    border: 1px solid black;
     font-weight: bold;
+}
+
+.event{
+    background-color: #095431;
+    border: 1px solid black;
+    color: white;
+    font-weight: bold;
+}
+ul{
+    list-style: none;
 }

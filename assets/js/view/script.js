@@ -3,57 +3,92 @@ currentMonth = today.getMonth();
 currentYear = today.getFullYear();
 selectYear = document.getElementById("year");
 selectMonth = document.getElementById("month");
+monthEvents = [];
 
 months = ["Janeiro", "Fevereiro", "Março", "Abril", "Maio", "Junho", "Julho", "Agosto", "Setembro", "Outubro", "Novembro", "Dezembro"];
 
-// fetch('./assets/js/model/event.json')
-//     .then((response) => response.json())
-//     .then((json) => console.log(json));
-
 
 monthAndYear = document.getElementById("monthAndYear");
-showCalendar(currentMonth, currentYear);
+
+initialize();
+
+async function initialize(){
+    await showEventList(currentMonth);
+    console.log(monthEvents);
+    await showCalendar(currentMonth, currentYear);
+}
 
 
-function next() {
+
+async function next() {
     currentYear = (currentMonth === 11) ? currentYear + 1 : currentYear;
     currentMonth = (currentMonth + 1) % 12;
-    showCalendar(currentMonth, currentYear);
+    await showEventList(currentMonth);
+    await showCalendar(currentMonth, currentYear);
 }
 
-function previous() {
+async function previous() {
+    
     currentYear = (currentMonth === 0) ? currentYear - 1 : currentYear;
     currentMonth = (currentMonth === 0) ? 11 : currentMonth - 1;
-    showCalendar(currentMonth, currentYear);
+    await showEventList(currentMonth);
+    await showCalendar(currentMonth, currentYear);
 }
 
-function jump() {
+async function jump() {
+    
     currentYear = parseInt(selectYear.value);
     currentMonth = parseInt(selectMonth.value);
-    showCalendar(currentMonth, currentYear);
+    await showEventList(currentMonth);
+    await showCalendar(currentMonth, currentYear);
+
+}
+
+async function showEventList(month){
+    document.getElementById("event-list").innerHTML = "";
+    fetch('./assets/js/model/event.json')
+    .then((response) => response.json())
+    .then((events) => {
+        
+        for(let event of events.data){
+           if(month == new Date(event.begin_date).getMonth()){
+            monthEvents.push(event.begin_date);
+            eventItem = document.createElement("li");
+            var eventDate;
+        
+            if(eventItem.end_date){
+                eventDate = new Date(event.begin_date).getUTCDate() + " - " + new Date(event.end_date).getUTCDate().toString();
+            } else {
+                eventDate = new Date(event.begin_date).getUTCDate();
+            }
+        
+            eventDescription = document.createTextNode(eventDate + ": " + event.description);
+            eventItem.appendChild(eventDescription);
+            document.getElementById("event-list").appendChild(eventItem);
+        }
+       }
+
+    });
+
 }
 
 function showCalendar(month, year) {
+    console.log(monthEvents);
 
     let firstDay = (new Date(year, month)).getDay();
 
-    tbl = document.getElementById("calendar-body"); // body of the calendar
+    tbl = document.getElementById("calendar-body");
 
-    // clearing all previous cells
     tbl.innerHTML = "";
 
-    // filing data about month and in the page via DOM.
     monthAndYear.innerHTML = "Calendário Acadêmico - " + months[month] + " " + year;
     selectYear.value = year;
     selectMonth.value = month;
 
-    // creating all cells
     let date = 1;
     for (let i = 0; i < 6; i++) {
-        // creates a table row
         let row = document.createElement("tr");
 
-        //creating individual cells, filing them up with data.
         for (let j = 0; j < 7; j++) {
             if (i === 0 && j < firstDay) {
                 cell = document.createElement("td");
@@ -68,9 +103,17 @@ function showCalendar(month, year) {
             else {
                 cell = document.createElement("td");
                 cellText = document.createTextNode(date);
+
+                for(let event of monthEvents){
+                    if(date == new Date(event).getDate()){
+                    cell.classList.add("event");
+                    }
+                }
+
                 if (date === today.getDate() && year === today.getFullYear() && month === today.getMonth()) {
                     cell.classList.add("today");
-                } // color today's date
+                } 
+
                 cell.appendChild(cellText);
                 row.appendChild(cell);
                 date++;
@@ -79,13 +122,12 @@ function showCalendar(month, year) {
 
         }
 
-        tbl.appendChild(row); // appending each row into calendar body.
+        tbl.appendChild(row);
     }
 
 }
 
 
-// check how many days in a month code from https://dzone.com/articles/determining-number-days-month
 function daysInMonth(iMonth, iYear) {
     return 32 - new Date(iYear, iMonth, 32).getDate();
 }
